@@ -27,12 +27,12 @@ An extra feature was added: the legs move (using sin() for smoothness) as the co
 ### Menu layout:
 
 ![Main Farm View](images/menu_layout.png)
-**Ambient lighting intensity can be controlled by the user.**
+    **Ambient lighting intensity can be controlled by the user.**
 
 ### Help layout:
 
 ![Main Farm View](images/help_layout.png)
-**All controls are shown.**
+    **All controls are shown.**
 
 ### Main farm screenshots:
 
