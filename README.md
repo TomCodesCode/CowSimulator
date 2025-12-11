@@ -1,16 +1,16 @@
 
 # Tom's Farm- a Cow Simulation
 
-This is summary of the project (mmn17, Computer Graphics).
+This is summary of the project (Computer Graphics).
 
 An extra feature was added: the legs move (using sin() for smoothness) as the cow walks.
 
-The project:
+## The project:
 * implements OpenGL functions to create shapes, lighting, a menu and user controls (via keyboard and/or mouse.
 * Uses an external asset- stb_image.h for loading texture files onto the cow and floor (grass).
 * Implements some basic math functions to control the view and object (cow) transformations. Main libraries used: GL/glut, cmath.
 
-Controls:
+### Controls:
 * Left-drag: rotate
 * Right-drag: pan
 * Scroll: zoom
@@ -24,21 +24,25 @@ Controls:
 * q/e: increase/decrease light intensity
 * Click Help again to hide
 
-Menu layout:
+### Menu layout:
+
 ![Main Farm View](images/menu_layout.png)
-* Ambient lighting intensity can be controlled by the user.
+**Ambient lighting intensity can be controlled by the user.**
 
-Help layout:
+### Help layout:
+
 ![Main Farm View](images/help_layout.png)
-* All controls are shown.
+**All controls are shown.**
 
-Main farm screenshots:
+### Main farm screenshots:
 
 ![Main Farm View](images/farm_1.png)
+
 ![Main Farm View](images/farm_2.png)
 
 
-Shiny light-silver window (metallic, you know... for security):
+### Shiny light-silver window (metallic, you know... for security):
+
 ![Shiny Window](images/metalic_window.png)
 
 
