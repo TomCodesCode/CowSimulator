@@ -1,0 +1,24 @@
+// .vscode/c_cpp_properties.json
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Linux-GCC",
+      "compilerPath": "/usr/bin/g++",
+      "cStandard":   "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "/home/tom/third_party/imgui",
+        "/home/tom/third_party/*",
+        "/home/tom/third_party/imgui/backends",
+        "/usr/include",
+        "/usr/include/glm",
+        "/usr/include/GL",        // for <GL/glew.h>
+        "/usr/include/GLFW"       // for <GLFW/glfw3.h>
+      ],
+      "defines": []
+    }
+  ]
+}
